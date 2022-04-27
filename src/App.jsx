@@ -1,3 +1,6 @@
+import { bobsOne } from './services/promise-me';
+console.log(bobsOne)
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return;
 }
