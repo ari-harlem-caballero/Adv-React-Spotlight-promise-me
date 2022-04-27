@@ -12,6 +12,10 @@ export async function bobsOne() {
 /**
  * TODO: Exercise 2: use `fetch` & `.then` syntax to get the same data from the first exercise.
  */
+export function bobsTwo() {
+  return fetch(`https://bobsburgers-api.herokuapp.com/burgerOfTheDay/2`)
+    .then((res) => res.json());
+}
 
 /**
  * TODO: Exercise 3: use `fetch`, async/await, and a try/catch statement to get data from an API and handle errors
